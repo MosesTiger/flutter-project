@@ -1,3 +1,9 @@
 TextButton( child: Text('버튼임'), onPressed: (){} )
 ElevatedButton( child: Text('버튼임'), onPressed: (){} )
 IconButton( icon: Icon(), onPressed: (){} )
+
+AppBar(
+  title : Text('앱제목'),
+  leading : Icon(Icons.star),
+  actions : [ Icon(Icons.star), Icon(Icons.star) ]
+)
